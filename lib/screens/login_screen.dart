@@ -9,8 +9,16 @@ class LoginScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Login Screen'),
       ),
-      body: const Center(
-        child: Text('Welcome to the Login Screen!'),
+      body: Padding(
+        padding: EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            TextField(
+              controller: emailController,
+              decoration: InputDecoration(labelText: 'Email'),
+            )
+          ],
+        ),
       ),
     );
   }
