@@ -9,6 +9,16 @@ class RegistrationScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Register'),
       ),
+      body: Padding(
+        padding: EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            TextField(
+              controller: emailController,
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
