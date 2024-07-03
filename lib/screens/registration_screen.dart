@@ -30,6 +30,9 @@ class RegistrationScreen extends StatelessWidget {
               controller: confirmPasswordController,
               decoration: InputDecoration(labelText: "confirmpassword"),
             ),
+            const SizedBox(
+              height: 25,
+            ),
             ElevatedButton(
                 onPressed: () {
                   Navigator.push(context,
