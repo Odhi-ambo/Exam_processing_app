@@ -1,3 +1,4 @@
+import 'package:exam_processing_app/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
 class RegistrationScreen extends StatelessWidget {
@@ -28,7 +29,13 @@ class RegistrationScreen extends StatelessWidget {
             TextField(
               controller: confirmPasswordController,
               decoration: InputDecoration(labelText: "confirmpassword"),
-            )
+            ),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => LoginScreen()));
+                },
+                child: Text('Register'))
           ],
         ),
       ),
