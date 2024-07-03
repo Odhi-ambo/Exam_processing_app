@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
 class RegistrationScreen extends StatelessWidget {
-  const RegistrationScreen({super.key});
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
+  final TextEditingController confirmPasswordController =
+      TextEditingController();
+  // const RegistrationScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,6 +21,14 @@ class RegistrationScreen extends StatelessWidget {
               controller: emailController,
               decoration: InputDecoration(labelText: "Email"),
             ),
+            TextField(
+              controller: passwordController,
+              decoration: InputDecoration(labelText: "Password"),
+            ),
+            TextField(
+              controller: confirmPasswordController,
+              decoration: InputDecoration(labelText: "confirmpassword"),
+            )
           ],
         ),
       ),
