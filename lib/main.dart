@@ -1,5 +1,6 @@
 import 'package:exam_processing_app/screens/home_screen.dart';
 import 'package:exam_processing_app/screens/login_screen.dart';
+import 'package:exam_processing_app/screens/registration_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LoginScreen(),
+      home: RegistrationScreen(),
     );
   }
 }
