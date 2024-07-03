@@ -15,6 +15,7 @@ class RegistrationScreen extends StatelessWidget {
           children: [
             TextField(
               controller: emailController,
+              decoration: InputDecoration(labelText: "Email"),
             ),
           ],
         ),
