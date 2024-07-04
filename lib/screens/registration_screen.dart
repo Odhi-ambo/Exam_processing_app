@@ -26,7 +26,7 @@ class RegistrationScreen extends StatelessWidget {
             ),
             TextField(
               controller: passwordController,
-              decoration: InputDecoration(labelText: "Password"),
+              decoration: const InputDecoration(labelText: "Password"),
             ),
             TextField(
               controller: confirmPasswordController,
