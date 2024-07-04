@@ -6,6 +6,8 @@ class RegistrationScreen extends StatelessWidget {
   final TextEditingController passwordController = TextEditingController();
   final TextEditingController confirmPasswordController =
       TextEditingController();
+
+  RegistrationScreen({super.key});
   // const RegistrationScreen({super.key});
 
   @override
