@@ -5,6 +5,8 @@ class LoginScreen extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
+  LoginScreen({super.key});
+
   //LoginScreen({super.key, required this.emailController, required this.passwordController});
 
   @override
