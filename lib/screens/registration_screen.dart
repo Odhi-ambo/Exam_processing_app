@@ -30,7 +30,7 @@ class RegistrationScreen extends StatelessWidget {
             ),
             TextField(
               controller: confirmPasswordController,
-              decoration: InputDecoration(labelText: "confirmpassword"),
+              decoration: const InputDecoration(labelText: "confirmpassword"),
             ),
             const SizedBox(
               height: 25,
