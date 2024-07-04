@@ -13,7 +13,7 @@ class _CourseRegistrationScreenState extends State<CourseRegistrationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Course Registration'),
+        title: const Text('Course Registration'),
       ),
     );
   }
