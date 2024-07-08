@@ -10,6 +10,10 @@ class ScoreEntry extends StatefulWidget {
 class _ScoreEntryState extends State<ScoreEntry> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Score Entry'),
+      ),
+    );
   }
 }
