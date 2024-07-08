@@ -2,7 +2,10 @@ import 'package:exam_processing_app/screens/course_registration_screen.dart';
 import 'package:flutter/material.dart';
 
 class ScoreEntryScreen extends StatefulWidget {
+  const ScoreEntryScreen({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _ScoreEntryScreenState createState() => _ScoreEntryScreenState();
 }
 
@@ -48,21 +51,21 @@ class _ScoreEntryScreenState extends State<ScoreEntryScreen> {
               },
             ),
             TextFormField(
-              decoration: InputDecoration(labelText: "CAT 1"),
+              decoration: const InputDecoration(labelText: "CAT 1"),
               keyboardType: TextInputType.number,
               onChanged: (value) {
                 cat1 = int.parse(value);
               },
             ),
             TextFormField(
-              decoration: InputDecoration(labelText: "CAT 2"),
+              decoration: const InputDecoration(labelText: "CAT 2"),
               keyboardType: TextInputType.number,
               onChanged: (value) {
                 cat2 = int.parse(value);
               },
             ),
             TextFormField(
-              decoration: InputDecoration(labelText: "Exam"),
+              decoration: const InputDecoration(labelText: "Exam"),
               keyboardType: TextInputType.number,
               onChanged: (value) {
                 exam = int.parse(value);
@@ -74,7 +77,7 @@ class _ScoreEntryScreenState extends State<ScoreEntryScreen> {
                   // Save scores to database
                 }
               },
-              child: Text("Submit Scores"),
+              child: const Text("Submit Scores"),
             ),
           ],
         ),
