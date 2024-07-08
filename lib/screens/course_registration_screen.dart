@@ -15,6 +15,15 @@ class _CourseRegistrationScreenState extends State<CourseRegistrationScreen> {
       appBar: AppBar(
         title: const Text('Course Registration'),
       ),
+      body: Form(
+          child: Column(
+        children: [
+          Expanded(
+              child: ListView(
+            children: [],
+          ))
+        ],
+      )),
     );
   }
 }
