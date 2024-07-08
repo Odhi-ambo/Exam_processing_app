@@ -1,4 +1,8 @@
+import 'package:exam_processing_app/screens/course_registration_screen.dart';
+import 'package:exam_processing_app/screens/home_screen.dart';
+import 'package:exam_processing_app/screens/login_screen.dart';
 import 'package:exam_processing_app/screens/registration_screen.dart';
+import 'package:exam_processing_app/screens/score_entry.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +15,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: RegistrationScreen(),
+      title: 'Exam Processing App',
+      initialRoute: '/',
+      routes: {
+        '/': (context) => LoginScreen(),
+        '/register': (context) => RegistrationScreen(),
+        '/home': (context) => const HomeScreen(),
+        '/courseRegistration': (context) => const CourseRegistrationScreen(),
+        '/scoreEntry': (context) => const ScoreEntryScreen(),
+        // '/adminReport': (context) => AdminReportScreen(),
+      },
     );
   }
 }
