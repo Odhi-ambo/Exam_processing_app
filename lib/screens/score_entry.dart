@@ -31,7 +31,7 @@ class _ScoreEntryScreenState extends State<ScoreEntryScreen> {
                   selectedCourse = value!;
                 });
               },
-              decoration: InputDecoration(labelText: "Select Course"),
+              decoration: const InputDecoration(labelText: "Select Course"),
             ),
             TextFormField(
               decoration: InputDecoration(labelText: "Assignment 1"),
