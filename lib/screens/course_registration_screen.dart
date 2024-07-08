@@ -17,7 +17,10 @@ List<Course> courses = [
 ];
 
 class CourseRegistrationScreen extends StatefulWidget {
+  const CourseRegistrationScreen({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _CourseRegistrationScreenState createState() =>
       _CourseRegistrationScreenState();
 }
@@ -29,7 +32,7 @@ class _CourseRegistrationScreenState extends State<CourseRegistrationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Course Registration")),
+      appBar: AppBar(title: const Text("Course Registration")),
       body: Form(
         key: _formKey,
         child: Column(
@@ -61,7 +64,7 @@ class _CourseRegistrationScreenState extends State<CourseRegistrationScreen> {
                   // Show error
                 }
               },
-              child: Text("Register Courses"),
+              child: const Text("Register Courses"),
             ),
           ],
         ),
