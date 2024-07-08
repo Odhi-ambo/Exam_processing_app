@@ -41,7 +41,7 @@ class _ScoreEntryScreenState extends State<ScoreEntryScreen> {
               },
             ),
             TextFormField(
-              decoration: InputDecoration(labelText: "Assignment 2"),
+              decoration: const InputDecoration(labelText: "Assignment 2"),
               keyboardType: TextInputType.number,
               onChanged: (value) {
                 assignment2 = int.parse(value);
