@@ -14,7 +14,7 @@ class _ScoreEntryScreenState extends State<ScoreEntryScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Enter Scores")),
+      appBar: AppBar(title: const Text("Enter Scores")),
       body: Form(
         key: _formKey,
         child: Column(
