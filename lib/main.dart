@@ -1,3 +1,4 @@
+import 'package:exam_processing_app/screens/admin_report_screen.dart';
 import 'package:exam_processing_app/screens/course_registration_screen.dart';
 import 'package:exam_processing_app/screens/home_screen.dart';
 import 'package:exam_processing_app/screens/login_screen.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => const HomeScreen(),
         '/courseRegistration': (context) => const CourseRegistrationScreen(),
         '/scoreEntry': (context) => const ScoreEntryScreen(),
-        // '/adminReport': (context) => AdminReportScreen(),
+        '/adminReport': (context) => const AdminReportScreen(),
       },
     );
   }
