@@ -1,8 +1,6 @@
-abstract class Course {
+class Course {
   final String id;
   final String name;
-  final int semester;
-  final int year;
 
-  Course(this.id, this.name, this.semester, this.year);
+  Course({required this.id, required this.name});
 }
