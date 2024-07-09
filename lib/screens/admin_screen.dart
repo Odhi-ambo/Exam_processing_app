@@ -12,7 +12,7 @@ class _AdminScreenState extends State<AdminScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Generate reports'),
+        title: const Text('Generate reports'),
       ),
     );
   }
