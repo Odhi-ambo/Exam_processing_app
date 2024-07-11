@@ -55,7 +55,7 @@ class _AdminReportScreenState extends State<AdminReportScreen> {
       body: Column(
         children: [
           DropdownButtonFormField(
-            items: [
+            items: const [
               DropdownMenuItem(
                   value: "passedSemester",
                   child: Text("Passed All Courses in Semester")),
