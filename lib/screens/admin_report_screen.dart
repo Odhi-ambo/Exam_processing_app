@@ -5,6 +5,8 @@ import 'package:exam_processing_app/model/score.dart';
 import 'package:exam_processing_app/model/report_generator.dart';
 
 class AdminReportScreen extends StatefulWidget {
+  const AdminReportScreen({super.key});
+
   @override
   _AdminReportScreenState createState() => _AdminReportScreenState();
 }
