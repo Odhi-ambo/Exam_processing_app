@@ -92,7 +92,7 @@ class _AdminReportScreenState extends State<AdminReportScreen> {
                 // Handle other report types
               });
             },
-            child: Text("Generate Report"),
+            child: const Text("Generate Report"),
           ),
           Expanded(
             child: ListView.builder(
