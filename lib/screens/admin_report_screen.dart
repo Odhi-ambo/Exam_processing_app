@@ -51,7 +51,7 @@ class _AdminReportScreenState extends State<AdminReportScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Generate Reports")),
+      appBar: AppBar(title: const Text("Generate Reports")),
       body: Column(
         children: [
           DropdownButtonFormField(
