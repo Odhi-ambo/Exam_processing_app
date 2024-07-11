@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => const HomeScreen(),
         '/courseRegistration': (context) => const CourseRegistrationScreen(),
         '/scoreEntry': (context) => const ScoreEntryScreen(),
-        '/adminReport': (context) => AdminReportScreen(),
+        '/adminReport': (context) => const AdminReportScreen(),
       },
     );
   }
