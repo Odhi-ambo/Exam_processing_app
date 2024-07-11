@@ -69,7 +69,7 @@ class _AdminReportScreenState extends State<AdminReportScreen> {
                 selectedReport = value!;
               });
             },
-            decoration: InputDecoration(labelText: "Select Report Type"),
+            decoration: const InputDecoration(labelText: "Select Report Type"),
           ),
           ElevatedButton(
             onPressed: () {
