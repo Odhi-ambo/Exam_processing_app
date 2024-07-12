@@ -76,7 +76,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 password = value;
               },
               obscureText: true,
-              decoration: InputDecoration(labelText: 'Password'),
+              decoration: const InputDecoration(labelText: 'Password'),
             ),
             CheckboxListTile(
               title: Text("Login as Admin"),
