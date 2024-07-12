@@ -79,7 +79,7 @@ class _LoginScreenState extends State<LoginScreen> {
               decoration: const InputDecoration(labelText: 'Password'),
             ),
             CheckboxListTile(
-              title: Text("Login as Admin"),
+              title: const Text("Login as Admin"),
               value: isAdmin,
               onChanged: (value) {
                 setState(() {
